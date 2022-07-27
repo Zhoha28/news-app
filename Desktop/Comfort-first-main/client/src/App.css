@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap');
+.
 .App {
   text-align: center;
 }
@@ -35,4 +37,110 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+/
+/* navbar styles */
+
+.navbar-brand{
+  font-family: 'Caveat', cursive;
+  font-size: 33px;
+  font-weight: bolder;
+}
+
+.active .nav-link{
+  color: white;
+ 
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+}
+#roomcontainer{
+  text-align: left;
+
+}
+
+.roomcontainerrow{
+  justify-content: center;
+  margin: auto;
+  padding:5px 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+
+}
+.roomcontainerrow{
+  transition: all 0.4s ease;
+}
+
+.roomcontainerrow:hover{
+  padding:25px;
+}
+
+.floatright{
+  float: right;
+}
+
+
+
+.smallimg{
+  height: 230px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+
+.boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-holder{
+  margin-bottom: 10px;
+}
+.vertical-center{
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.points{
+  display: block;
+  padding: 3px;
+}
+
+
+.bigimg{
+  height:400px;
+  width: 300px;
+
+}
+
+.btn-primary{
+  background-color: #B99264;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  border: #B99264 1px solid;
+  transition: all 0.3s linear;
+}
+.btn-primary:hover{
+  background-color: white;
+  color: #B99264;
+  border: #B99264 1px solid;
+}
+.btn-small-primary{
+  background-color: #B99264;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  border: #B99264 1px solid;
+  transition: all 0.3s linear;
+}
+.btn-small-primary:hover{
+  background-color: white;
+  color: #B99264;
+  border: #B99264 1px solid;
 }
